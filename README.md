@@ -4,13 +4,13 @@ Common tsconfig for all node.js repositories
 ## Install
 
 ```bash
-$ yarn add -D https://github.com/1inch/tsconfig.git#v1.0.0
+$ yarn add -D https://github.com/13x54n/tsconfig.git#v1.0.0
 ```
 
 And then setup `tsconfig.json`:
 ```json
 {
-  "extends": "@1inch/tsconfig",
+  "extends": "@13x54n/tsconfig",
   "include": ["src"],
   "compilerOptions": {
     "typeRoots": [
